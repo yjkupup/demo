@@ -1557,3 +1557,7 @@ Already up to date.
 
 yjk@yjh MINGW64 ~/Desktop/git_practice/demo (bugfix/cooperate)
 $
+     UID     PID    PPID  TTY        STIME COMMAND
+     yjk    1150    1149 pty0     17:04:57 /usr/bin/bash
+     yjk    1149       1 ?        17:04:56 /usr/bin/mintty
+     yjk    2061    1150 pty0     18:43:13 /usr/bin/ps
