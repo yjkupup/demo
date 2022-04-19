@@ -240,4 +240,1320 @@ Date:   Tue Apr 19 16:19:35 2022 +0800
 yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
 $
 Display all 5633 possibilities? (y or n)
+!                                                                        easinvoker.exe
+./                                                                       easinvoker.proxystub.dll
+2to3.exe                                                                 easwrt.dll
+:                                                                        easy_install.exe
+ACPBackgroundManagerPolicy.dll                                           echo
+AJRouter.dll                                                             echo.exe
+APHostClient.dll                                                         ecosystem.core.dll
+APHostRes.dll                                                            ecosystem.windows.dll
+APHostService.dll                                                        edgeIso.dll
+APMon.dll                                                                edgeangle.dll
+ARP.EXE                                                                  edgehtml.dll
+AUDIOKSE.dll                                                             edit.dll
+AarSvc.dll                                                               edit_test.exe
+AboutSettingsHandlers.dll                                                edit_test_dll.exe
+AboveLockAppHost.dll                                                     edpauditapi.dll
+AcGenral.dll                                                             edpcsp.dll
+AcLayers.dll                                                             edpnotify.exe
+AcSpecfc.dll                                                             edptask.dll
+AcWinRT.dll                                                              edputil.dll
+AcXtrnal.dll                                                             eeprov.dll
+AccountsRt.dll                                                           eeutil.dll
+ActionCenter.dll                                                         efsadu.dll
+ActionCenterCPL.dll                                                      efscore.dll
+ActionMgr.dll                                                            efsext.dll
+ActionQueue.dll                                                          efslsaext.dll
+ActivationClient.dll                                                     efssvc.dll
+ActivationManager.dll                                                    efsui.exe
+ActiveSyncCsp.dll                                                        efsutil.dll
+ActiveSyncProvider.dll                                                   efswrt.dll
+AdaptiveCards.dll                                                        egrep
+AddressParser.dll                                                        elbadmin.exe
+AdobePDF.dll                                                             elevator.exe
+AdobePDFUI.dll                                                           elif
+AdvancedEmojiDS.dll                                                      els.dll
+Analog.Shell.Broker.dll                                                  elsTrans.dll
+AnalogCommonProxyStub.dll                                                else
+ApiSetHost.AppExecutionAlias.dll                                         elshyph.dll
+AppContracts.dll                                                         elslad.dll
+AppExtension.dll                                                         embeddedmodesvc.dll
+AppHostRegistrationVerifier.exe                                          embeddedmodesvcapi.dll
+AppInstallerPrompt.Desktop.dll                                           enable
+AppLockerCSP.dll                                                         enc2xs
+AppMon.dll                                                               encapi.dll
+AppReadiness.dll                                                         encguess
+AppResolver.dll                                                          energy.dll
+AppXApplicabilityBlob.dll                                                energyprov.dll
+AppXDeploymentClient.dll                                                 energytask.dll
+AppXDeploymentExtensions.desktop.dll                                     enrollmentapi.dll
+AppXDeploymentExtensions.onecore.dll                                     enterprisecsps.dll
+AppXDeploymentServer.dll                                                 enterpriseetw.dll
+Apphlpdm.dll                                                             enterpriseresourcemanager.dll
+ApplicationControlCSP.dll                                                env.exe
+ApplicationFrame.dll                                                     envsubst.exe
+ApplicationFrameHost.exe                                                 epylint.exe
+ApplyTrustOffline.exe                                                    eqossnap.dll
+--More--  ^C
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git st
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   a.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git add a.txt
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git commit --amend --no-edit
+[main d30177f] new added txt files, add detail infos
+ Date: Tue Apr 19 17:11:50 2022 +0800
+ 4 files changed, 242 insertions(+)
+ create mode 100644 a.txt
+ create mode 100644 b.txt
+ create mode 100644 c.txt
+ create mode 100644 temp/d.txt
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git log
+commit d30177fc5c4e582e77fa15712223a2e6dc5c5cc9 (HEAD -> main)
+Author: yujiangkun <1532285878@qq.com>
+Date:   Tue Apr 19 17:11:50 2022 +0800
+
+    new added txt files, add detail infos
+
+commit 7a04aed24eea3c29378f1c286a181be9410a9a03
+Author: yujiangkun <1532285878@qq.com>
+Date:   Tue Apr 19 16:19:35 2022 +0800
+
+    add readme
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git blame a.txt
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800   1)
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800   2) yjk@yjh MINGW64 ~/Desktop/git_practice (master)
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800   3) $ git st
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800   4) On branch master
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800   5) Changes to be committed:
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800   6)   (use "git restore --staged <file>..." to unstage)
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800   7)         deleted:    READ.MD
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800   8)
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800   9) Untracked files:
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  10)   (use "git add <file>..." to include in what will be committed)
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  11)         demo/
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  12)
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  13)
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  14) yjk@yjh MINGW64 ~/Desktop/git_practice (master)
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  15) $ git commit READ.MD -m "remove readme"
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  16) [master 14b316f] remove readme
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  17)  1 file changed, 1 deletion(-)
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  18)  delete mode 100644 READ.MD
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  19)
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  20) yjk@yjh MINGW64 ~/Desktop/git_practice (master)
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  21) $ git st
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  22) On branch master
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  23) Untracked files:
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  24)   (use "git add <file>..." to include in what will be committed)
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  25)         demo/
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  26)
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  27) nothing added to commit but untracked files present (use "git add" to track)
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  28)
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  29) yjk@yjh MINGW64 ~/Desktop/git_practice (master)
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  30) $ git log
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  31) commit 14b316f1b020f00006a63c28b3ee38e0de7e0757 (HEAD -> master)
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  32) Author: yujiangkun <1532285878@qq.com>
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  33) Date:   Tue Apr 19 17:06:07 2022 +0800
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  34)
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  35)     remove readme
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  36)
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  37) commit 9f90b8248a56c847e55877eb08e57da5a87d6910
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  38) Author: yujiangkun <1532285878@qq.com>
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  39) Date:   Tue Apr 19 16:03:46 2022 +0800
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  40)
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  41)     add readme file
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  42)
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  43) yjk@yjh MINGW64 ~/Desktop/git_practice (master)
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  44) $ git add demo/
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  45) warning: adding embedded git repository: demo
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  46) hint: You've added another git repository inside your current repository.
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  47) hint: Clones of the outer repository will not contain the contents of
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  48) hint: the embedded repository and will not know how to obtain it.
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  49) hint: If you meant to add a submodule, use:
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  50) hint:
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  51) hint:   git submodule add <url> demo
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  52) hint:
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  53) hint: If you added this path by mistake, you can remove it from the
+d30177fc (yujiangkun 2022-04-19 17:11:50 +0800  54) hint: index with:
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git push origin  main
+fatal: 发送请求时出错。
+fatal: 基础连接已经关闭: 发送时发生错误。
+fatal: 无法从传输连接中读取数据: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。。
+fatal: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+fatal: unable to access 'https://github.com/yjkupup/demo.git/': Failed to connect to github.com port 443 after 21011 ms: Timed out
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git push origin  main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (8/8), 2.17 KiB | 1.08 MiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/yjkupup/demo.git
+ * [new branch]      main -> main
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git st
+On branch main
+nothing to commit, working tree clean
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git pull
+fatal: unable to access 'https://github.com/yjkupup/demo.git/': OpenSSL SSL_read: Connection was reset, errno 10054
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git pull
+fatal: unable to access 'https://github.com/yjkupup/demo.git/': Failed to connect to github.com port 443 after 21066 ms: Timed out
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git config --global --unset http.proxy
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git config --global --unset https.proxy
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git pull
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), 700 bytes | 14.00 KiB/s, done.
+From https://github.com/yjkupup/demo
+   d30177f..85cfcfb  main       -> origin/main
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> main
+
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ cd temp/
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo/temp (main)
+$ cat d.txt
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo/temp (main)
+$ git pull origin main
+fatal: unable to access 'https://github.com/yjkupup/demo.git/': OpenSSL SSL_read: Connection was reset, errno 10054
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo/temp (main)
+$ git pull origin main
+fatal: unable to access 'https://github.com/yjkupup/demo.git/': OpenSSL SSL_read: Connection was reset, errno 10054
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo/temp (main)
+$ git config --global --unset http.proxy
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo/temp (main)
+$ git config --global --unset https.proxy
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo/temp (main)
+$  git pull origin main
+From https://github.com/yjkupup/demo
+ * branch            main       -> FETCH_HEAD
+Updating d30177f..85cfcfb
+Fast-forward
+ temp/d.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo/temp (main)
+$ cat d.txt
+edit on remote github server
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo/temp (main)
+$ git co -b yjk/test1
+Switched to a new branch 'yjk/test1'
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo/temp (yjk/test1)
+$ git log
+commit 85cfcfbcf8b2ee533723c350669c493ac12b20d0 (HEAD -> yjk/test1, origin/main, main)
+Author: yjkupup <55939139+yjkupup@users.noreply.github.com>
+Date:   Tue Apr 19 17:34:47 2022 +0800
+
+    Update d.txt
+
+commit d30177fc5c4e582e77fa15712223a2e6dc5c5cc9
+Author: yujiangkun <1532285878@qq.com>
+Date:   Tue Apr 19 17:11:50 2022 +0800
+
+    new added txt files, add detail infos
+
+commit 7a04aed24eea3c29378f1c286a181be9410a9a03
+Author: yujiangkun <1532285878@qq.com>
+Date:   Tue Apr 19 16:19:35 2022 +0800
+
+    add readme
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo/temp (yjk/test1)
+$ git rm a.txt
+fatal: pathspec 'a.txt' did not match any files
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo/temp (yjk/test1)
+$ git st
+On branch yjk/test1
+nothing to commit, working tree clean
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo/temp (yjk/test1)
+$ cd ../ && git rm b.txt
+rm 'b.txt'
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (yjk/test1)
+$ git st
+On branch yjk/test1
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    b.txt
+
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (yjk/test1)
+$ git mv c.txt temp/
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (yjk/test1)
+$ ll
+total 9
+-rw-r--r-- 1 yjk 197121   11 Apr 19 16:18 READ.MD
+-rw-r--r-- 1 yjk 197121 7107 Apr 19 17:26 a.txt
+drwxr-xr-x 1 yjk 197121    0 Apr 19 17:44 temp/
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (yjk/test1)
+$ git st
+On branch yjk/test1
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    b.txt
+        renamed:    c.txt -> temp/c.txt
+
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (yjk/test1)
+$ ll ./temp/
+total 1
+-rw-r--r-- 1 yjk 197121  0 Apr 19 16:26 c.txt
+-rw-r--r-- 1 yjk 197121 30 Apr 19 17:42 d.txt
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (yjk/test1)
+$ git st
+On branch yjk/test1
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    b.txt
+        renamed:    c.txt -> temp/c.txt
+
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (yjk/test1)
+$ ll
+total 9
+-rw-r--r-- 1 yjk 197121   11 Apr 19 16:18 READ.MD
+-rw-r--r-- 1 yjk 197121 7107 Apr 19 17:26 a.txt
+drwxr-xr-x 1 yjk 197121    0 Apr 19 17:44 temp/
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (yjk/test1)
+$ echo "ccccc" >
+.git/    READ.MD  a.txt    temp/
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (yjk/test1)
+$ echo "ccccc" > a.txt
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (yjk/test1)
+$ cat a.txt
+ccccc
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (yjk/test1)
+$ git co a.txt
+Updated 1 path from the index
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (yjk/test1)
+$ cat a.txt
+
+yjk@yjh MINGW64 ~/Desktop/git_practice (master)
+$ git st
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    READ.MD
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        demo/
+
+
+yjk@yjh MINGW64 ~/Desktop/git_practice (master)
+$ git commit READ.MD -m "remove readme"
+[master 14b316f] remove readme
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 READ.MD
+
+yjk@yjh MINGW64 ~/Desktop/git_practice (master)
+$ git st
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        demo/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+yjk@yjh MINGW64 ~/Desktop/git_practice (master)
+$ git log
+commit 14b316f1b020f00006a63c28b3ee38e0de7e0757 (HEAD -> master)
+Author: yujiangkun <1532285878@qq.com>
+Date:   Tue Apr 19 17:06:07 2022 +0800
+
+    remove readme
+
+commit 9f90b8248a56c847e55877eb08e57da5a87d6910
+Author: yujiangkun <1532285878@qq.com>
+Date:   Tue Apr 19 16:03:46 2022 +0800
+
+    add readme file
+
+yjk@yjh MINGW64 ~/Desktop/git_practice (master)
+$ git add demo/
+warning: adding embedded git repository: demo
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> demo
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached demo
+hint:
+hint: See "git help submodule" for more information.
+
+yjk@yjh MINGW64 ~/Desktop/git_practice (master)
+$ cd demo/
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git st
+git: 'st' is not a git command. See 'git --help'.
+
+The most similar commands are
+        status
+        reset
+        stage
+        stash
+        svn
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git sta
+git: 'sta' is not a git command. See 'git --help'.
+
+The most similar commands are
+        status
+        stage
+        stash
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git status
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   a.txt
+        new file:   b.txt
+        new file:   c.txt
+        new file:   temp/d.txt
+
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ lsal
+bash: lsal: command not found
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ ls -al
+total 5
+drwxr-xr-x 1 yjk 197121  0 Apr 19 16:26 ./
+drwxr-xr-x 1 yjk 197121  0 Apr 19 16:16 ../
+drwxr-xr-x 1 yjk 197121  0 Apr 19 17:07 .git/
+-rw-r--r-- 1 yjk 197121 11 Apr 19 16:18 READ.MD
+-rw-r--r-- 1 yjk 197121  0 Apr 19 16:25 a.txt
+-rw-r--r-- 1 yjk 197121  0 Apr 19 16:26 b.txt
+-rw-r--r-- 1 yjk 197121  0 Apr 19 16:26 c.txt
+drwxr-xr-x 1 yjk 197121  0 Apr 19 16:27 temp/
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ cd .git/
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo/.git (GIT_DIR!)
+$ ll
+total 13
+-rw-r--r-- 1 yjk 197121  11 Apr 19 16:19 COMMIT_EDITMSG
+-rw-r--r-- 1 yjk 197121  21 Apr 19 16:15 HEAD
+-rw-r--r-- 1 yjk 197121 294 Apr 19 16:15 config
+-rw-r--r-- 1 yjk 197121  73 Apr 19 16:15 description
+drwxr-xr-x 1 yjk 197121   0 Apr 19 16:15 hooks/
+-rw-r--r-- 1 yjk 197121 414 Apr 19 17:04 index
+drwxr-xr-x 1 yjk 197121   0 Apr 19 16:15 info/
+drwxr-xr-x 1 yjk 197121   0 Apr 19 16:19 logs/
+drwxr-xr-x 1 yjk 197121   0 Apr 19 17:04 objects/
+drwxr-xr-x 1 yjk 197121   0 Apr 19 16:15 refs/
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo/.git (GIT_DIR!)
+$ vim config
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo/.git (GIT_DIR!)
+$ cd ../../
+
+yjk@yjh MINGW64 ~/Desktop/git_practice (master)
+$ cd demo/
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git st
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   a.txt
+        new file:   b.txt
+        new file:   c.txt
+        new file:   temp/d.txt
+
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git commit -am "new added some files"
+[main 8cd13a2] new added some files
+ 4 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 a.txt
+ create mode 100644 b.txt
+ create mode 100644 c.txt
+ create mode 100644 temp/d.txt
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git st
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git branch --unset-upstream
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git st
+On branch main
+nothing to commit, working tree clean
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ got log
+bash: got: command not found
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git log
+commit 8cd13a20a333e1d7b8ab6e08f28eff0ff2a31e9d (HEAD -> main)
+Author: yujiangkun <1532285878@qq.com>
+Date:   Tue Apr 19 17:11:50 2022 +0800
+
+    new added some files
+
+commit 7a04aed24eea3c29378f1c286a181be9410a9a03
+Author: yujiangkun <1532285878@qq.com>
+Date:   Tue Apr 19 16:19:35 2022 +0800
+
+    add readme
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git log --graph
+* commit 8cd13a20a333e1d7b8ab6e08f28eff0ff2a31e9d (HEAD -> main)
+| Author: yujiangkun <1532285878@qq.com>
+| Date:   Tue Apr 19 17:11:50 2022 +0800
+|
+|     new added some files
+|
+* commit 7a04aed24eea3c29378f1c286a181be9410a9a03
+  Author: yujiangkun <1532285878@qq.com>
+  Date:   Tue Apr 19 16:19:35 2022 +0800
+
+      add readme
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git ls
+fatal: ambiguous argument '<%an>': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git commit --amend
+[main 8fea7e5] new added txt files, add detail infos
+ Date: Tue Apr 19 17:11:50 2022 +0800
+ 4 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 a.txt
+ create mode 100644 b.txt
+ create mode 100644 c.txt
+ create mode 100644 temp/d.txt
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git log
+commit 8fea7e59cd09c9f3fd965ca7bbb5bd392ecffb57 (HEAD -> main)
+Author: yujiangkun <1532285878@qq.com>
+Date:   Tue Apr 19 17:11:50 2022 +0800
+
+    new added txt files, add detail infos
+
+commit 7a04aed24eea3c29378f1c286a181be9410a9a03
+Author: yujiangkun <1532285878@qq.com>
+Date:   Tue Apr 19 16:19:35 2022 +0800
+
+    add readme
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$
+Display all 5633 possibilities? (y or n)
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (yjk/test1)
+$ echo "ccccccccccc" >>a.txt
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (yjk/test1)
+$ cat a.txt
+
+yjk@yjh MINGW64 ~/Desktop/git_practice (master)
+$ git st
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    READ.MD
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        demo/
+
+
+yjk@yjh MINGW64 ~/Desktop/git_practice (master)
+$ git commit READ.MD -m "remove readme"
+[master 14b316f] remove readme
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 READ.MD
+
+yjk@yjh MINGW64 ~/Desktop/git_practice (master)
+$ git st
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        demo/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+yjk@yjh MINGW64 ~/Desktop/git_practice (master)
+$ git log
+commit 14b316f1b020f00006a63c28b3ee38e0de7e0757 (HEAD -> master)
+Author: yujiangkun <1532285878@qq.com>
+Date:   Tue Apr 19 17:06:07 2022 +0800
+
+    remove readme
+
+commit 9f90b8248a56c847e55877eb08e57da5a87d6910
+Author: yujiangkun <1532285878@qq.com>
+Date:   Tue Apr 19 16:03:46 2022 +0800
+
+    add readme file
+
+yjk@yjh MINGW64 ~/Desktop/git_practice (master)
+$ git add demo/
+warning: adding embedded git repository: demo
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> demo
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached demo
+hint:
+hint: See "git help submodule" for more information.
+
+yjk@yjh MINGW64 ~/Desktop/git_practice (master)
+$ cd demo/
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git st
+git: 'st' is not a git command. See 'git --help'.
+
+The most similar commands are
+        status
+        reset
+        stage
+        stash
+        svn
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git sta
+git: 'sta' is not a git command. See 'git --help'.
+
+The most similar commands are
+        status
+        stage
+        stash
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git status
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   a.txt
+        new file:   b.txt
+        new file:   c.txt
+        new file:   temp/d.txt
+
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ lsal
+bash: lsal: command not found
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ ls -al
+total 5
+drwxr-xr-x 1 yjk 197121  0 Apr 19 16:26 ./
+drwxr-xr-x 1 yjk 197121  0 Apr 19 16:16 ../
+drwxr-xr-x 1 yjk 197121  0 Apr 19 17:07 .git/
+-rw-r--r-- 1 yjk 197121 11 Apr 19 16:18 READ.MD
+-rw-r--r-- 1 yjk 197121  0 Apr 19 16:25 a.txt
+-rw-r--r-- 1 yjk 197121  0 Apr 19 16:26 b.txt
+-rw-r--r-- 1 yjk 197121  0 Apr 19 16:26 c.txt
+drwxr-xr-x 1 yjk 197121  0 Apr 19 16:27 temp/
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ cd .git/
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo/.git (GIT_DIR!)
+$ ll
+total 13
+-rw-r--r-- 1 yjk 197121  11 Apr 19 16:19 COMMIT_EDITMSG
+-rw-r--r-- 1 yjk 197121  21 Apr 19 16:15 HEAD
+-rw-r--r-- 1 yjk 197121 294 Apr 19 16:15 config
+-rw-r--r-- 1 yjk 197121  73 Apr 19 16:15 description
+drwxr-xr-x 1 yjk 197121   0 Apr 19 16:15 hooks/
+-rw-r--r-- 1 yjk 197121 414 Apr 19 17:04 index
+drwxr-xr-x 1 yjk 197121   0 Apr 19 16:15 info/
+drwxr-xr-x 1 yjk 197121   0 Apr 19 16:19 logs/
+drwxr-xr-x 1 yjk 197121   0 Apr 19 17:04 objects/
+drwxr-xr-x 1 yjk 197121   0 Apr 19 16:15 refs/
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo/.git (GIT_DIR!)
+$ vim config
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo/.git (GIT_DIR!)
+$ cd ../../
+
+yjk@yjh MINGW64 ~/Desktop/git_practice (master)
+$ cd demo/
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git st
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   a.txt
+        new file:   b.txt
+        new file:   c.txt
+        new file:   temp/d.txt
+
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git commit -am "new added some files"
+[main 8cd13a2] new added some files
+ 4 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 a.txt
+ create mode 100644 b.txt
+ create mode 100644 c.txt
+ create mode 100644 temp/d.txt
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git st
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git branch --unset-upstream
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git st
+On branch main
+nothing to commit, working tree clean
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ got log
+bash: got: command not found
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git log
+commit 8cd13a20a333e1d7b8ab6e08f28eff0ff2a31e9d (HEAD -> main)
+Author: yujiangkun <1532285878@qq.com>
+Date:   Tue Apr 19 17:11:50 2022 +0800
+
+    new added some files
+
+commit 7a04aed24eea3c29378f1c286a181be9410a9a03
+Author: yujiangkun <1532285878@qq.com>
+Date:   Tue Apr 19 16:19:35 2022 +0800
+
+    add readme
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git log --graph
+* commit 8cd13a20a333e1d7b8ab6e08f28eff0ff2a31e9d (HEAD -> main)
+| Author: yujiangkun <1532285878@qq.com>
+| Date:   Tue Apr 19 17:11:50 2022 +0800
+|
+|     new added some files
+|
+* commit 7a04aed24eea3c29378f1c286a181be9410a9a03
+  Author: yujiangkun <1532285878@qq.com>
+  Date:   Tue Apr 19 16:19:35 2022 +0800
+
+      add readme
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git ls
+fatal: ambiguous argument '<%an>': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git commit --amend
+[main 8fea7e5] new added txt files, add detail infos
+ Date: Tue Apr 19 17:11:50 2022 +0800
+ 4 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 a.txt
+ create mode 100644 b.txt
+ create mode 100644 c.txt
+ create mode 100644 temp/d.txt
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git log
+commit 8fea7e59cd09c9f3fd965ca7bbb5bd392ecffb57 (HEAD -> main)
+Author: yujiangkun <1532285878@qq.com>
+Date:   Tue Apr 19 17:11:50 2022 +0800
+
+    new added txt files, add detail infos
+
+commit 7a04aed24eea3c29378f1c286a181be9410a9a03
+Author: yujiangkun <1532285878@qq.com>
+Date:   Tue Apr 19 16:19:35 2022 +0800
+
+    add readme
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$
+Display all 5633 possibilities? (y or n)
 ccccccccccc
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (yjk/test1)
+$ cat a.txt
+
+yjk@yjh MINGW64 ~/Desktop/git_practice (master)
+$ git st
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    READ.MD
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        demo/
+
+
+yjk@yjh MINGW64 ~/Desktop/git_practice (master)
+$ git commit READ.MD -m "remove readme"
+[master 14b316f] remove readme
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 READ.MD
+
+yjk@yjh MINGW64 ~/Desktop/git_practice (master)
+$ git st
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        demo/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+yjk@yjh MINGW64 ~/Desktop/git_practice (master)
+$ git log
+commit 14b316f1b020f00006a63c28b3ee38e0de7e0757 (HEAD -> master)
+Author: yujiangkun <1532285878@qq.com>
+Date:   Tue Apr 19 17:06:07 2022 +0800
+
+    remove readme
+
+commit 9f90b8248a56c847e55877eb08e57da5a87d6910
+Author: yujiangkun <1532285878@qq.com>
+Date:   Tue Apr 19 16:03:46 2022 +0800
+
+    add readme file
+
+yjk@yjh MINGW64 ~/Desktop/git_practice (master)
+$ git add demo/
+warning: adding embedded git repository: demo
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> demo
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached demo
+hint:
+hint: See "git help submodule" for more information.
+
+yjk@yjh MINGW64 ~/Desktop/git_practice (master)
+$ cd demo/
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git st
+git: 'st' is not a git command. See 'git --help'.
+
+The most similar commands are
+        status
+        reset
+        stage
+        stash
+        svn
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git sta
+git: 'sta' is not a git command. See 'git --help'.
+
+The most similar commands are
+        status
+        stage
+        stash
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git status
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   a.txt
+        new file:   b.txt
+        new file:   c.txt
+        new file:   temp/d.txt
+
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ lsal
+bash: lsal: command not found
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ ls -al
+total 5
+drwxr-xr-x 1 yjk 197121  0 Apr 19 16:26 ./
+drwxr-xr-x 1 yjk 197121  0 Apr 19 16:16 ../
+drwxr-xr-x 1 yjk 197121  0 Apr 19 17:07 .git/
+-rw-r--r-- 1 yjk 197121 11 Apr 19 16:18 READ.MD
+-rw-r--r-- 1 yjk 197121  0 Apr 19 16:25 a.txt
+-rw-r--r-- 1 yjk 197121  0 Apr 19 16:26 b.txt
+-rw-r--r-- 1 yjk 197121  0 Apr 19 16:26 c.txt
+drwxr-xr-x 1 yjk 197121  0 Apr 19 16:27 temp/
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ cd .git/
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo/.git (GIT_DIR!)
+$ ll
+total 13
+-rw-r--r-- 1 yjk 197121  11 Apr 19 16:19 COMMIT_EDITMSG
+-rw-r--r-- 1 yjk 197121  21 Apr 19 16:15 HEAD
+-rw-r--r-- 1 yjk 197121 294 Apr 19 16:15 config
+-rw-r--r-- 1 yjk 197121  73 Apr 19 16:15 description
+drwxr-xr-x 1 yjk 197121   0 Apr 19 16:15 hooks/
+-rw-r--r-- 1 yjk 197121 414 Apr 19 17:04 index
+drwxr-xr-x 1 yjk 197121   0 Apr 19 16:15 info/
+drwxr-xr-x 1 yjk 197121   0 Apr 19 16:19 logs/
+drwxr-xr-x 1 yjk 197121   0 Apr 19 17:04 objects/
+drwxr-xr-x 1 yjk 197121   0 Apr 19 16:15 refs/
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo/.git (GIT_DIR!)
+$ vim config
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo/.git (GIT_DIR!)
+$ cd ../../
+
+yjk@yjh MINGW64 ~/Desktop/git_practice (master)
+$ cd demo/
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git st
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   a.txt
+        new file:   b.txt
+        new file:   c.txt
+        new file:   temp/d.txt
+
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git commit -am "new added some files"
+[main 8cd13a2] new added some files
+ 4 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 a.txt
+ create mode 100644 b.txt
+ create mode 100644 c.txt
+ create mode 100644 temp/d.txt
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git st
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git branch --unset-upstream
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git st
+On branch main
+nothing to commit, working tree clean
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ got log
+bash: got: command not found
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git log
+commit 8cd13a20a333e1d7b8ab6e08f28eff0ff2a31e9d (HEAD -> main)
+Author: yujiangkun <1532285878@qq.com>
+Date:   Tue Apr 19 17:11:50 2022 +0800
+
+    new added some files
+
+commit 7a04aed24eea3c29378f1c286a181be9410a9a03
+Author: yujiangkun <1532285878@qq.com>
+Date:   Tue Apr 19 16:19:35 2022 +0800
+
+    add readme
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git log --graph
+* commit 8cd13a20a333e1d7b8ab6e08f28eff0ff2a31e9d (HEAD -> main)
+| Author: yujiangkun <1532285878@qq.com>
+| Date:   Tue Apr 19 17:11:50 2022 +0800
+|
+|     new added some files
+|
+* commit 7a04aed24eea3c29378f1c286a181be9410a9a03
+  Author: yujiangkun <1532285878@qq.com>
+  Date:   Tue Apr 19 16:19:35 2022 +0800
+
+      add readme
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git ls
+fatal: ambiguous argument '<%an>': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git commit --amend
+[main 8fea7e5] new added txt files, add detail infos
+ Date: Tue Apr 19 17:11:50 2022 +0800
+ 4 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 a.txt
+ create mode 100644 b.txt
+ create mode 100644 c.txt
+ create mode 100644 temp/d.txt
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git log
+commit 8fea7e59cd09c9f3fd965ca7bbb5bd392ecffb57 (HEAD -> main)
+Author: yujiangkun <1532285878@qq.com>
+Date:   Tue Apr 19 17:11:50 2022 +0800
+
+    new added txt files, add detail infos
+
+commit 7a04aed24eea3c29378f1c286a181be9410a9a03
+Author: yujiangkun <1532285878@qq.com>
+Date:   Tue Apr 19 16:19:35 2022 +0800
+
+    add readme
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$
+Display all 5633 possibilities? (y or n)
+ccccccccccc
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (yjk/test1)
+$ git st
+On branch yjk/test1
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    b.txt
+        renamed:    c.txt -> temp/c.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   a.txt
+
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (yjk/test1)
+$ git commit -am "too many editted"
+warning: LF will be replaced by CRLF in a.txt.
+The file will have its original line endings in your working directory
+[yjk/test1 f7f2471] too many editted
+ 3 files changed, 1 insertion(+)
+ delete mode 100644 b.txt
+ rename c.txt => temp/c.txt (100%)
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (yjk/test1)
+$ git log
+commit f7f2471e7e6064df93ff77522fc5bb19f3103a1a (HEAD -> yjk/test1)
+Author: yujiangkun <1532285878@qq.com>
+Date:   Tue Apr 19 17:49:11 2022 +0800
+
+    too many editted
+
+commit 85cfcfbcf8b2ee533723c350669c493ac12b20d0 (origin/main, main)
+Author: yjkupup <55939139+yjkupup@users.noreply.github.com>
+Date:   Tue Apr 19 17:34:47 2022 +0800
+
+    Update d.txt
+
+commit d30177fc5c4e582e77fa15712223a2e6dc5c5cc9
+Author: yujiangkun <1532285878@qq.com>
+Date:   Tue Apr 19 17:11:50 2022 +0800
+
+    new added txt files, add detail infos
+
+commit 7a04aed24eea3c29378f1c286a181be9410a9a03
+Author: yujiangkun <1532285878@qq.com>
+Date:   Tue Apr 19 16:19:35 2022 +0800
+
+    add readme
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (yjk/test1)
+$ git log --name-status
+commit f7f2471e7e6064df93ff77522fc5bb19f3103a1a (HEAD -> yjk/test1)
+Author: yujiangkun <1532285878@qq.com>
+Date:   Tue Apr 19 17:49:11 2022 +0800
+
+    too many editted
+
+M       a.txt
+D       b.txt
+R100    c.txt   temp/c.txt
+
+commit 85cfcfbcf8b2ee533723c350669c493ac12b20d0 (origin/main, main)
+Author: yjkupup <55939139+yjkupup@users.noreply.github.com>
+Date:   Tue Apr 19 17:34:47 2022 +0800
+
+    Update d.txt
+
+M       temp/d.txt
+
+commit d30177fc5c4e582e77fa15712223a2e6dc5c5cc9
+Author: yujiangkun <1532285878@qq.com>
+Date:   Tue Apr 19 17:11:50 2022 +0800
+
+    new added txt files, add detail infos
+
+A       a.txt
+A       b.txt
+A       c.txt
+A       temp/d.txt
+
+commit 7a04aed24eea3c29378f1c286a181be9410a9a03
+Author: yujiangkun <1532285878@qq.com>
+Date:   Tue Apr 19 16:19:35 2022 +0800
+
+    add readme
+
+A       READ.MD
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (yjk/test1)
+$ git push origin yjk/test1
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 404 bytes | 404.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'yjk/test1' on GitHub by visiting:
+remote:      https://github.com/yjkupup/demo/pull/new/yjk/test1
+remote:
+To https://github.com/yjkupup/demo.git
+ * [new branch]      yjk/test1 -> yjk/test1
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (yjk/test1)
+$ it br
+bash: it: command not found
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (yjk/test1)
+$ git br
+  main
+* yjk/test1
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (yjk/test1)
+$ git br -r
+  origin/main
+  origin/yjk/test1
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (yjk/test1)
+$ git br -a
+  main
+* yjk/test1
+  remotes/origin/main
+  remotes/origin/yjk/test1
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (yjk/test1)
+$ git co main
+Switched to branch 'main'
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git merge yjk/test1 main
+Updating 85cfcfb..f7f2471
+Fast-forward
+ a.txt               | 1 +
+ b.txt               | 0
+ c.txt => temp/c.txt | 0
+ 3 files changed, 1 insertion(+)
+ delete mode 100644 b.txt
+ rename c.txt => temp/c.txt (100%)
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git log
+commit f7f2471e7e6064df93ff77522fc5bb19f3103a1a (HEAD -> main, origin/yjk/test1, yjk/test1)
+Author: yujiangkun <1532285878@qq.com>
+Date:   Tue Apr 19 17:49:11 2022 +0800
+
+    too many editted
+
+commit 85cfcfbcf8b2ee533723c350669c493ac12b20d0 (origin/main)
+Author: yjkupup <55939139+yjkupup@users.noreply.github.com>
+Date:   Tue Apr 19 17:34:47 2022 +0800
+
+    Update d.txt
+
+commit d30177fc5c4e582e77fa15712223a2e6dc5c5cc9
+Author: yujiangkun <1532285878@qq.com>
+Date:   Tue Apr 19 17:11:50 2022 +0800
+
+    new added txt files, add detail infos
+
+commit 7a04aed24eea3c29378f1c286a181be9410a9a03
+Author: yujiangkun <1532285878@qq.com>
+Date:   Tue Apr 19 16:19:35 2022 +0800
+
+    add readme
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ ls
+READ.MD  a.txt  temp/
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git push origin main
+fatal: unable to access 'https://github.com/yjkupup/demo.git/': OpenSSL SSL_read: Connection was reset, errno 10054
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git push origin main
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/yjkupup/demo.git
+   85cfcfb..f7f2471  main -> main
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (main)
+$ git co -b bugfix/cooperate
+Switched to a new branch 'bugfix/cooperate'
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (bugfix/cooperate)
+$ git diff bugfix/cooperate origin
+fatal: ambiguous argument 'origin': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (bugfix/cooperate)
+$ git br -a
+* bugfix/cooperate
+  main
+  yjk/test1
+  remotes/origin/main
+  remotes/origin/yjk/test1
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (bugfix/cooperate)
+$ git push origin bugfix/cooperate
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'bugfix/cooperate' on GitHub by visiting:
+remote:      https://github.com/yjkupup/demo/pull/new/bugfix/cooperate
+remote:
+To https://github.com/yjkupup/demo.git
+ * [new branch]      bugfix/cooperate -> bugfix/cooperate
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (bugfix/cooperate)
+$ git br
+* bugfix/cooperate
+  main
+  yjk/test1
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (bugfix/cooperate)
+$ git br -r
+  origin/bugfix/cooperate
+  origin/main
+  origin/yjk/test1
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (bugfix/cooperate)
+$ git diff origin/bugfix/cooperate bugfix/cooperate
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (bugfix/cooperate)
+$ git diff bugfix/cooperate  origin/bugfix/cooperate
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (bugfix/cooperate)
+$ git pull origin bugfix/cooperate
+From https://github.com/yjkupup/demo
+ * branch            bugfix/cooperate -> FETCH_HEAD
+Already up to date.
+
+yjk@yjh MINGW64 ~/Desktop/git_practice/demo (bugfix/cooperate)
+$
