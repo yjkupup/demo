@@ -1,2 +1,2 @@
 hello git! on branch main
-on branch test2
+branch test
