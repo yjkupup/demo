@@ -5,3 +5,7 @@ F:/git_install/Git  321G  139G  183G  44% /
 C:                  119G   98G   21G  83% /c
 last line of content
 end of the file
+     UID     PID    PPID  TTY        STIME COMMAND
+     yjk    1091       1 ?        09:25:20 /usr/bin/mintty
+     yjk    1092    1091 pty0     09:25:21 /usr/bin/bash
+     yjk    1276    1092 pty0     09:30:23 /usr/bin/ps
